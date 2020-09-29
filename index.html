@@ -8,87 +8,78 @@
     />
 
     <link rel="icon" href="img/devchallenges.png" />
-
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Devchallenges | Interior Consultant</title>
 
-    <style>
-      body {
-        font-family: 'Poppins', sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
+    <div class="container">
+      <nav>
+        <div class="nav-brand"><h3>This Interior</h3></div>
+        <div class="nav-links">
+          <ul>
+            <li>Home</li>
+            <li>Collection</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <main>
+        <section class="left-side">
+          <h1>Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="#"
+            >Read more <span class="material-icons"> arrow_right_alt </span></a
           >
-        </h1>
+        </section>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+        <section class="right-side">
+          <img src="img/photo1.png" alt="Photo 1" />
+          <div class="card">
+            <div class="card-header">
+              <img src="img/photo2.png" alt="Photo 2" />
+              <div class="bio">
+                <p class="name">Aliza Webber</p>
+                <p class="job">Interior designer</p>
+              </div>
+            </div>
+            <h2>Designed in 2020 by Aliza Webber</h2>
+          </div>
+        </section>
+      </main>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <footer>
+        <a href="https://github.com/hendraaagil" target="_blank">Hendra Agil</a>
+        @ DevChallenges.io
+      </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
